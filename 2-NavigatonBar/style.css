@@ -1,0 +1,39 @@
+.conatiner {
+
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 60px 300px 60px;
+    grid-gap: 10px;
+}
+
+#nav {
+    background-color: black;
+    color: rgb(78, 215, 222);
+    font-size: medium;
+    padding: 20px;
+    grid-column: 1/4;
+
+}
+
+#Lside {
+    background-color: yellow;
+    padding: 20px;
+
+}
+
+#Rside {
+    background-color: yellow;
+    grid-column: 3/4;
+    padding: 20px;
+
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    grid-column: 1/4;
+}
